@@ -10,7 +10,7 @@
     box-sizing: border-box;
 }
 html{
-    background-image: url(/images/fondo-panes.jpg);
+    background-image: url(../images/fondo-panes.jpg);
 }
 header{
     text-align: center;
