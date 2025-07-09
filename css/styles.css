@@ -7,6 +7,7 @@
 }
 *{
     /* outline: 1px solid black; */
+    box-sizing: border-box;
 }
 html{
     background-image: url(/images/fondo-panes.jpg);
@@ -22,26 +23,59 @@ a{
 a:hover{
     color: var(--amarillo);
 }
+a:active{
+    color: #e27b7b;
+}
 nav{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-size: 35px;
+    height: 60px;
+}
+nav div{
+    background-color: #573c2c;
+    padding: 10px;
+    border-radius: 5px;
+}
+nav div:hover{
+    font-size: 40px;
 }
 body{
     width: 800px;
     margin: 0 auto;
+    padding: 10px;
+    border-radius: 10px;
     background-color: #805841;
+}
+img, fieldset{
+    border-radius: 20px;
 }
 main{
     padding: 0 20px;
     text-align: center;
+    color: #dcf7f3;
+}
+h2{
+    font-size: 40px;
+}
+p{
+    font-size: 20px;
 }
 legend{
     text-align: right;
+    margin-right: 20px;
+    font-size: 40px;
+    color: #dcf7f3;
 }
 footer{
-    border-top: 2px solid black;
+    border-top: 2px solid #dcf7f3;
+    margin-top: 10px;
+    padding-top: 10px;
     text-align: center;
 }
 footer p {
     margin: 5px;
+    font-size: 15px;
 }
