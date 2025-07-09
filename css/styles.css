@@ -9,6 +9,7 @@
 *{
     /* outline: 1px solid black; */
     box-sizing: border-box;
+    font-family: Quicksand;
 }
 html{
     background-image: url(../images/fondo-panes.jpg);
@@ -52,6 +53,12 @@ body{
 }
 img, fieldset{
     border-radius: 20px;
+}
+fieldset{
+    font-size: 20px;
+}
+li{
+    text-align: left;
 }
 main{
     padding: 0 20px;
