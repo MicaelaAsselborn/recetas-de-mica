@@ -1,5 +1,5 @@
 *{
-    outline: 1px solid black;
+    /* outline: 1px solid black; */
 }
 header{
     text-align: center;
@@ -16,6 +16,9 @@ body{
 main{
     padding: 0 20px;
     text-align: center;
+}
+legend{
+    text-align: right;
 }
 footer{
     border-top: 2px solid black;
