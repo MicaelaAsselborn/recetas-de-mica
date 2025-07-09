@@ -1,5 +1,6 @@
 :root{
     --marron: #805841;
+    --marron-oscuro: #573c2c;
     --celeste: #dcf7f3;
     --amarillo: #fffcdd;
     --rosa: #ffd8d8;
@@ -18,13 +19,13 @@ header{
 }
 a{
     text-decoration: none;
-    color: #f5a2a2;
+    color: var(--salmon);
 }
 a:hover{
     color: var(--amarillo);
 }
 a:active{
-    color: #e27b7b;
+    color: var(--salmon);
 }
 nav{
     display: flex;
@@ -35,7 +36,7 @@ nav{
     height: 60px;
 }
 nav div{
-    background-color: #573c2c;
+    background-color: var(--marron-oscuro);
     padding: 10px;
     border-radius: 5px;
 }
@@ -47,7 +48,7 @@ body{
     margin: 0 auto;
     padding: 10px;
     border-radius: 10px;
-    background-color: #805841;
+    background-color: var(--marron);
 }
 img, fieldset{
     border-radius: 20px;
@@ -55,7 +56,7 @@ img, fieldset{
 main{
     padding: 0 20px;
     text-align: center;
-    color: #dcf7f3;
+    color: var(--celeste);
 }
 h2{
     font-size: 40px;
@@ -67,10 +68,10 @@ legend{
     text-align: right;
     margin-right: 20px;
     font-size: 40px;
-    color: #dcf7f3;
+    color: var(--celeste);
 }
 footer{
-    border-top: 2px solid #dcf7f3;
+    border-top: 2px solid var(--celeste);
     margin-top: 10px;
     padding-top: 10px;
     text-align: center;
