@@ -1,0 +1,26 @@
+*{
+    outline: 1px solid black;
+}
+header{
+    text-align: center;
+    font-size: 40px;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+body{
+    width: 800px;
+    margin: 0 auto;
+}
+main{
+    padding: 0 20px;
+    text-align: center;
+}
+footer{
+    border-top: 2px solid black;
+    text-align: center;
+}
+footer p {
+    margin: 5px;
+}
