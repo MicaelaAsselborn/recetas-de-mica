@@ -9,7 +9,6 @@
 *{
     /* outline: 1px solid black; */
     box-sizing: border-box;
-    font-family: Quicksand;
 }
 html{
     background-image: url(../images/fondo-panes.jpg);
@@ -45,7 +44,7 @@ nav div:hover{
     font-size: 40px;
 }
 body{
-    width: 800px;
+    width: 1000px;
     margin: 10px auto;
     padding: 10px;
     border-radius: 10px;
@@ -53,9 +52,11 @@ body{
 }
 img, fieldset{
     border-radius: 20px;
+
 }
 fieldset{
     font-size: 20px;
+    background-color: var(--marron-oscuro);
 }
 li{
     text-align: left;
@@ -66,7 +67,9 @@ main{
     color: var(--celeste);
 }
 h2{
-    font-size: 40px;
+    font-size: 60px;
+    background-color: var(--marron-oscuro);
+    border-radius: 15px;
 }
 p{
     font-size: 20px;
@@ -86,4 +89,17 @@ footer{
 footer p {
     margin: 5px;
     font-size: 15px;
+}
+.butter-list{
+    list-style-image: url(../images/butter.png);
+}
+.egg-list{
+    list-style-image: url(../images/egg.png);
+    
+}
+.sugar-list{
+    list-style-image: url(../images/sugar-cube.png);
+}
+.flour-list{
+    list-style-image: url(../images/flour.png);
 }
