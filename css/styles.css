@@ -110,17 +110,26 @@ footer p {
     padding-right: 10px;
 }
 .butter-list::before{
-    content: url(../images/butter.png);
+    content: url(../images/icons/butter.png);
 }
 .flour-list::before{
-    content: url(../images/flour.png);
+    content: url(../images/icons/flour.png);
 }
 .egg-list::before{
-    content: url(../images/egg.png);
+    content: url(../images/icons/egg.png);
 }
 .sugar-list::before{
-    content: url(../images/sugar-cube.png);
+    content: url(../images/icons/sugar-cube.png);
 }
 .cookie-list::before{
-    content: url(../images/cookie.png);
+    content: url(../images/icons/cookie.png);
 }
+.empanada-list::before{
+    content: url(../images/icons/empanada.png);
+}
+.chicken-list::before{
+    content: url(../images/icons/chicken.png);
+}
+.spinach-list::before{
+    content: url(../images/icons/spinach.png);
+}  
