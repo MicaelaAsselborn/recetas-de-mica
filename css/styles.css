@@ -132,4 +132,16 @@ footer p {
 }
 .spinach-list::before{
     content: url(../images/icons/spinach.png);
-}  
+}
+.olive-list::before{
+    content: url(../images/icons/olive.png);
+}
+.water-list::before{
+    content: url(../images/icons/glass-of-water.png);
+}
+.oil-list::before{
+    content: url(../images/icons/oil.png);
+}
+.quiche-list::before{
+    content: url(../images/icons/quiche.png);
+}
