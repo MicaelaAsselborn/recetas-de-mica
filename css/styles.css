@@ -145,3 +145,9 @@ footer p {
 .quiche-list::before{
     content: url(../images/icons/quiche.png);
 }
+.amarula-list::before{
+    content: url(../images/icons/amarula.png);
+}
+.ice-cream-list::before{
+    content: url(../images/icons/ice-cream.png);
+}
